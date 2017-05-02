@@ -4,7 +4,7 @@ public class SMPizzaStore extends PizzaStore{
   Pizza createPizza(String item){
     Pizza pizza=null;
     if(item.equals("sangmyung"))
-      pizza=new SMStyleCheesePizza();
+      pizza=new SMStylePotatoPizza();
     return pizza;
   }
 }
