@@ -1,0 +1,10 @@
+package headfirst.iterator.dinermerger.after;
+
+import java.util.*;
+
+public class MenuTestDrive {
+    public static void main(String args[]) {
+        PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
+        DinerMenu dinerMenu = new DinerMenu();
+    }
+}
