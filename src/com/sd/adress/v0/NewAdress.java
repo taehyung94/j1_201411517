@@ -1,8 +1,9 @@
+package com.sd.adress.v0;
 class NewAdress extends JDialog implements ActionListener{
   JTextField t1=new JTextField(20);
   JTextField t2=new JTextField(20);
-  JButton b1=new JButton("ÀÔ·Â");
-  JButton b2=new JButton("Ãë¼Ò");
+  JButton b1=new JButton("Ã€Ã”Â·Ã‚");
+  JButton b2=new JButton("ÃƒÃ«Â¼Ã’");
   public NewAdress(){
     this.setSize(400,200);
     this.setLayout(new GridLayout(2,2));
