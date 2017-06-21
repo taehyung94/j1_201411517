@@ -1,4 +1,4 @@
-package com.sd.adress;
+package com.sd.adress.v0;
 
 import java.awt.*;
 import javax.swing.*;
@@ -13,9 +13,9 @@ public class AdressMain{
     JPanel p=new JPanel(new GridLayout(2,2));
     f.getContentPane().add(p);
     JTextField blank2=new JTextField(20);
-    JButton b1=new JButton("°Ë»ö");
-    JButton b2=new JButton("Ãß°¡");
-    JButton b3=new JButton("Á¤·Ä");
+    JButton b1=new JButton("Â°Ã‹Â»Ã¶");
+    JButton b2=new JButton("ÃƒÃŸÂ°Â¡");
+    JButton b3=new JButton("ÃÂ¤Â·Ã„");
     b2.addActionListener(new Function());
     p.add(blank1);
     p.add(b1);
